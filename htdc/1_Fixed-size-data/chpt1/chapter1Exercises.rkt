@@ -21,3 +21,17 @@
 (string-append start "_" end)
 
 (string-append (substring str 0 i) "_" (substring str i))
+
+(string-append (substring str 0 i) (substring str (+ i 1)))
+
+(define sunny #true)
+(define friday #false)
+
+(or (boolean=? sunny #false)
+    (boolean=? friday #true))
+
+(define x 2)
+(define inverse-of-x (/ 1 x))
+
+;(* (+ (string-length 42) 1) pi)
+
