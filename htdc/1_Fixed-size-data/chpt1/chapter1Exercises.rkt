@@ -35,3 +35,6 @@
 
 ;(* (+ (string-length 42) 1) pi)
 
+(define (cvolume  x)
+  (* (* x x) x))
+  
