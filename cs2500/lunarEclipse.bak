@@ -19,6 +19,10 @@
 
 (animate moon-rise)
 
+;; area-of-rectangle : Number -> Number
+;; Given the width and height of a rectangle, produces the area
+(define (area-of-rectangle width height)
+  (* width height))
 
 
 
