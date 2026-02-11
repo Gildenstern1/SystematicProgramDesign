@@ -25,3 +25,9 @@
 ;(define (string-last string)
 ;  (string-ith string (- (string-length string) 1)))
 ;(string-last "Hello") ;"o"
+
+;; Exercise 15
+(define (==> sunny friday)
+  (or (boolean=? sunny #false)
+      (boolean=? friday #true)))
+  
