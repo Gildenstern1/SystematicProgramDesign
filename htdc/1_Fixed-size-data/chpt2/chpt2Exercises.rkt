@@ -17,6 +17,11 @@
 ;(csurface 3) ;54
 
 ;; Exercise 13
-(define (string-first string)
-  (string-ith string 0))
-(string-first "Hello") ;"H"
+;(define (string-first string)
+;  (string-ith string 0))
+;(string-first "Hello") ;"H"
+
+;; Exercise 14
+;(define (string-last string)
+;  (string-ith string (- (string-length string) 1)))
+;(string-last "Hello") ;"o"
