@@ -10,4 +10,8 @@
 ;; Exercise 12
 ;(define (cvolume side)
 ;  (* side side side))
-;(cvolume 3)
+;(cvolume 3) ;27
+
+;(define (csurface side)
+;  (* (sqr side) 6))
+;(csurface 3) ;54
