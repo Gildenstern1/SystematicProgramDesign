@@ -33,6 +33,33 @@
 ;      (boolean=? friday #true)))
 
 ;; Exercise 16
-(define (image-area img)
-  (* (image-width img)(image-height img)))
-  
+;(define (image-area img)
+;  (* (image-width img)(image-height img)))
+
+;; Exercise 17
+;(define (image-classify img)
+;  (if(> (image-height img) (image-width img))
+;        "Tall"
+;     "Wide"))
+;
+;(define box (rectangle 30 20 "solid" "blue"))
+;(image-classify box) ;"Wide"
+        
+;; Exercise 18
+;(define (string-join str1 str2)
+;  (string-append str1 "_" str2))
+;(string-join "Hello" "World") ;"Hello_World"
+
+;; Exercise 19
+;(define (string-insert str num)
+;  (string-append (substring str 0 num)
+;                 "-"
+;                 (substring str num)))
+;(string-insert "HelloWorld" 5) ;"Hellow-World"
+
+;; Exercise 20
+;(define (string-delete str num)
+;  (string-append (substring str 0 num)
+;                
+;                 (substring str (+ num 1))))
+;(string-delete "HelloWorld" 5) ;"Helloorld"
