@@ -11,20 +11,24 @@
 ;; Exercise 12
 ;(define (cvolume side)
 ;  (* side side side))
+
 ;(cvolume 3) ;27
 
 ;(define (csurface side)
 ;  (* (sqr side) 6))
+
 ;(csurface 3) ;54
 
 ;; Exercise 13
 ;(define (string-first string)
 ;  (string-ith string 0))
+
 ;(string-first "Hello") ;"H"
 
 ;; Exercise 14
 ;(define (string-last string)
 ;  (string-ith string (- (string-length string) 1)))
+
 ;(string-last "Hello") ;"o"
 
 ;; Exercise 15
@@ -48,6 +52,7 @@
 ;; Exercise 18
 ;(define (string-join str1 str2)
 ;  (string-append str1 "_" str2))
+
 ;(string-join "Hello" "World") ;"Hello_World"
 
 ;; Exercise 19
@@ -55,6 +60,7 @@
 ;  (string-append (substring str 0 num)
 ;                 "-"
 ;                 (substring str num)))
+
 ;(string-insert "HelloWorld" 5) ;"Hellow-World"
 
 ;; Exercise 20
@@ -62,4 +68,5 @@
 ;  (string-append (substring str 0 num)
 ;                
 ;                 (substring str (+ num 1))))
+
 ;(string-delete "HelloWorld" 5) ;"Helloorld"
