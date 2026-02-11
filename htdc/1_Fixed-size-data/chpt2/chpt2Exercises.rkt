@@ -15,3 +15,8 @@
 ;(define (csurface side)
 ;  (* (sqr side) 6))
 ;(csurface 3) ;54
+
+;; Exercise 13
+(define (string-first string)
+  (string-ith string 0))
+(string-first "Hello") ;"H"
