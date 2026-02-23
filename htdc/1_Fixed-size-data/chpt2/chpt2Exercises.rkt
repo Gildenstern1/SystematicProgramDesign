@@ -91,3 +91,9 @@
 (define (profit ticket-price)
   (- (revenue ticket-price)
      (cost ticket-price)))
+
+(profit 1)
+(profit 2)
+(profit 3)
+(profit 4)
+(profit 5)
